@@ -26,7 +26,9 @@ MADNESS, I SAY!
 * Yes, you should be able to deploy to multiple environments without licensing issues.
 * Yes, you should be able to use CI and Docker deployments.
 * Yes, deploying to a multisite configuration should be supported.
-* Yes, you should hire that developer.
+* Yes, your website should be using Git.
+* Yes, your website should have versioned states.
+* Yes, you should hire "that" developer.
 
 
 # Ok, but what is Squidex? #
