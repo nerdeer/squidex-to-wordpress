@@ -17,14 +17,14 @@ The problem isn't WordPress itself, or even these plugins. The problem is that a
 
 MADNESS, I SAY!
 
-No, a shopping cart should not be part of your blog.
-No, you don't need a fancy wysiwyg content builder.
-No, you don't need to pay a license for that one extra feature.
-No, your data doesn't need to be locked behind a paid license.
-Yes, you should be able to localize your content and media.
-Yes, you should be able to deploy to multiple environments without licensing issues.
-Yes, you should be able to use CI and Docker deployments.
-Yes, deploying to a multisite configuration should be supported.
+* No, a shopping cart should not be part of your blog.
+* No, you don't need a fancy wysiwyg content builder.
+* No, you don't need to pay a license for that one extra feature.
+* No, your data doesn't need to be locked behind a paid license.
+* Yes, you should be able to localize your content and media.
+* Yes, you should be able to deploy to multiple environments without licensing issues.
+* Yes, you should be able to use CI and Docker deployments.
+* Yes, deploying to a multisite configuration should be supported.
 
 
 # Ok, but what is Squidex? #
