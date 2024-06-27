@@ -27,9 +27,13 @@ Yes, deploying to a multisite configuration should be supported.
 
 # Ok, but what is Squidex? #
 
-Squidex is just another CMS, but this one is generic in the sense that you can build any data models that you like with it. It also follows modern coding standards, plus has amazing localization support for text and media.
+Squidex is just another CMS, but this one is generic in the sense that you can build any data models that you like with it.
+It also follows modern coding standards, plus has amazing localization support for text and media.
+Because Squidex is API based, it is referred to as a `headless CMS`.
 
 Squidex is, honestly, a bit of a `hidden gem` :gem:, but yes it does require a little know-how to use it properly.
+
+It uses OpenAPI with Angular for the UI. Documentation is auto compiled, and you have the choice of GraphQL or a classic API that supports OData for accessing the data.
 
 Also, since it is open it can easily be hooked up into integration services. I anticipate that services like Zapier will include support soon.
 
