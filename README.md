@@ -1,6 +1,6 @@
 # squidex-to-wordpress #
 
-push ( and pull ) content from squidex into a WordPress instance.
+push ( and pull ) content from Squidex into a WordPress instance.
 
 # WHY? #
 
@@ -40,9 +40,9 @@ Because Squidex is API based, it is referred to as a `headless CMS`.
 
 Squidex is, honestly, a bit of a `hidden gem` :gem:, but yes it does require a little know-how to use it properly.
 
-It uses OpenAPI with Angular for the UI. Documentation is auto compiled, and you have the choice of GraphQL or a classic API that supports OData for accessing the data.
+It uses [OpenAPI](https://openai.com/api/) with [Angular](https://angular.dev/) for the UI. Documentation is auto compiled, and you have the choice of [ApolloGraphQL](https://www.apollographql.com/) or a classic API that supports [OData](https://www.odata.org/getting-started/understand-odata-in-6-steps/) for accessing the data. I tend to stick with the API.
 
-Also, since it is open it can easily be hooked up into integration services. I anticipate that services like Zapier will include support soon.
+Also, since it is open it can easily be hooked up into 3rd party integration services. I anticipate that services like Zapier will include support soon. :thinking: maybe this project could [make one](https://platform.zapier.com/publish/public-integration)
 
 It's a developer's playground that can solve many problems by giving us control of the data.
 
@@ -77,7 +77,7 @@ This is a common place to start when there is already a WordPress site with cont
 ## Using WordPress to edit content regularly ##
 
 In this scenario, we would need basic CI automation. 
-The choice I have here is to use github actions, but there are many options.
+The choice I have here is to use gitHub actions, but there are many options.
 
 on a trigger ( manual or tagged version ), update Squidex from the running WordPress instance.
 
@@ -93,7 +93,7 @@ Squidex support for each plugin needs to be added individually.
 
 ## Squidex ##
 
-* A running Squidex instance, either [cloud](https://squidex.io) or self hosted.
+* A running Squidex instance, either [cloud](https://squidex.io) or self-hosted.
 * an application configured to use the `Blog Starter`
 * A client added with the `editor` permissions
 
