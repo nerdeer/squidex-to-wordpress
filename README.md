@@ -13,7 +13,9 @@ A large part of the problem is that to do anything with WordPress today required
 
 But what if I told you that these plugins aren't needed at all? 
 
-The problem isn't WordPress itself, or even these plugins. The problem is that all of these websites are running their businesses out of WordPress. 
+The problem isn't WordPress itself, or even these plugins. The problem is that all of these websites are running their businesses' directly out of WordPress.
+
+MADNESS, I SAY!
 
 No, a shopping cart should not be part of your blog.
 No, you don't need a fancy wysiwyg content builder.
