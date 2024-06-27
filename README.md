@@ -22,6 +22,7 @@ MADNESS, I SAY!
 * No, you don't need a fancy wysiwyg content builder.
 * No, you don't need to pay a license for that one extra feature.
 * No, your data doesn't need to be locked behind a service or paid license.
+* No, do not run SMTP on your server.
 * Yes, you should be able to localize your content and media.
 * Yes, you should be able to deploy to multiple environments without licensing issues.
 * Yes, you should be able to use CI and Docker deployments.
